@@ -16,9 +16,9 @@ class InterfaceController: WKInterfaceController,NSFilePresenter {
     
     var notes :NSMutableArray?
     
-    override init(context: AnyObject?) {
+    override init() {
         // Initialize variables here.
-        super.init(context: context)
+        super.init()
         
         NSFileCoordinator.addFilePresenter(self)
         
@@ -60,7 +60,7 @@ class InterfaceController: WKInterfaceController,NSFilePresenter {
                 
                 for (index,value) in enumerate(self.notes!) {
                     
-                    let row = self.tableView?.rowControllerAtIndex(index) as NotesTableRowController
+                    let row = self.tableView?.rowControllerAtIndex(index) as! NotesTableRowController
                     
                     row.noteTitleLabel?.setText(value as? String)
                     

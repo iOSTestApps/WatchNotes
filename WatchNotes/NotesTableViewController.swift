@@ -52,7 +52,7 @@ class NotesTableViewController: UITableViewController,UITextFieldDelegate,NSFile
             }
             else {
                 
-                self.notes = NSKeyedUnarchiver.unarchiveObjectWithData(savedData!) as NSMutableArray
+                self.notes = NSKeyedUnarchiver.unarchiveObjectWithData(savedData!) as! NSMutableArray
             }
             
         }
@@ -140,9 +140,9 @@ class NotesTableViewController: UITableViewController,UITextFieldDelegate,NSFile
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell", forIndexPath: indexPath) as! UITableViewCell
         
-        var note = self.notes[indexPath.row] as String
+        var note = self.notes[indexPath.row] as! String
         
         cell.textLabel?.text = note
         
