@@ -27,7 +27,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.azamsharp.watchnotes.WatchNotes.watchapp</string>
+			<string>bb.com.azamsharp.watchnotes.WatchNotes.watchapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
