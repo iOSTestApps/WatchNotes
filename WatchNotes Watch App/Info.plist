@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.azamsharp.watchnotes.WatchNotes</string>
+	<string>bb.com.azamsharp.watchnotes.WatchNotes</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
