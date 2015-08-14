@@ -28,7 +28,7 @@ class InterfaceController: WKInterfaceController,NSFilePresenter {
     
     var presentedItemURL: NSURL? {
         
-        let groupURL = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.watchnotes")
+        let groupURL = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.bb.watchnotes")
         let fileURL = groupURL?.URLByAppendingPathComponent("notes.bin")
         
         return fileURL!
