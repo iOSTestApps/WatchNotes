@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D52C8699FC6E4874DA84A1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A306652589FF5116DBB7A /* CoreTelephony.framework */; };
 		341C36761A23EF1A00CA10AB /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 341C36751A23EF1A00CA10AB /* UIColor+Additions.m */; };
 		34E77AD01A211A150083241E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E77ACF1A211A150083241E /* AppDelegate.swift */; };
 		34E77AD21A211A150083241E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E77AD11A211A150083241E /* ViewController.swift */; };
@@ -24,6 +25,10 @@
 		34E77B111A211B800083241E /* WatchNotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34E77AF41A211B800083241E /* WatchNotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34E77B1B1A211DBD0083241E /* NotesTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E77B1A1A211DBD0083241E /* NotesTableRowController.swift */; };
 		34E77B1D1A2171930083241E /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E77B1C1A2171930083241E /* NotesTableViewController.swift */; };
+		462BD7D85456FAF34BAFDAFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EA043EDB0B6C0D81D681C7 /* SystemConfiguration.framework */; };
+		664C616DAEE8B773B74327C7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8626917B0E203E33F94EED /* BuddyBuildSDK.framework */; };
+		DD0CD9D49A0DEE999DE593DC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149DCA180734AD3CD0A9D9E4 /* AssetsLibrary.framework */; };
+		F153737142F3A73DA0AFD562 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E7FC1D7D1D52B52A3BD78 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C8626917B0E203E33F94EED /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		149DCA180734AD3CD0A9D9E4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		26EA043EDB0B6C0D81D681C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		341C36731A23EF1900CA10AB /* WatchNotes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchNotes-Bridging-Header.h"; sourceTree = "<group>"; };
 		341C36741A23EF1A00CA10AB /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
 		341C36751A23EF1A00CA10AB /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
@@ -93,6 +101,8 @@
 		34E77B191A211BA20083241E /* WatchNotes WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WatchNotes WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		34E77B1A1A211DBD0083241E /* NotesTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableRowController.swift; sourceTree = "<group>"; };
 		34E77B1C1A2171930083241E /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		AF6E7FC1D7D1D52B52A3BD78 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BF4A306652589FF5116DBB7A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664C616DAEE8B773B74327C7 /* BuddyBuildSDK.framework in Frameworks */,
+				DD0CD9D49A0DEE999DE593DC /* AssetsLibrary.framework in Frameworks */,
+				F153737142F3A73DA0AFD562 /* CoreText.framework in Frameworks */,
+				15D52C8699FC6E4874DA84A1 /* CoreTelephony.framework in Frameworks */,
+				462BD7D85456FAF34BAFDAFC /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +206,11 @@
 			isa = PBXGroup;
 			children = (
 				34E77AF61A211B800083241E /* WatchKit.framework */,
+				0C8626917B0E203E33F94EED /* BuddyBuildSDK.framework */,
+				149DCA180734AD3CD0A9D9E4 /* AssetsLibrary.framework */,
+				AF6E7FC1D7D1D52B52A3BD78 /* CoreText.framework */,
+				BF4A306652589FF5116DBB7A /* CoreTelephony.framework */,
+				26EA043EDB0B6C0D81D681C7 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -560,6 +580,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WatchNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -578,6 +602,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WatchNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
